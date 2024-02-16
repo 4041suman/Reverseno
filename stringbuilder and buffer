@@ -1,0 +1,20 @@
+import java.util.Scanner;
+//import java.lang.StringBuffer;
+//import java.lang.StringBuilder;
+public class Stringbuilder {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int no=sc.nextInt();
+        System.out.println("Enter an number : ");
+        /*StringBuilder rev;
+        StringBuilder sb=new StringBuilder();
+         sb.append(no);
+         rev=sb.reverse();
+        System.out.println("reverse string : "+rev);*/
+    
+    
+StringBuffer rev;
+StringBuffer sb=new StringBuffer(String.valueOf(no));
+rev=sb.reverse();
+System.out.println("reverse string : "+rev);
+    }}
